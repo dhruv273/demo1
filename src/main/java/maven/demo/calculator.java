@@ -30,5 +30,15 @@ public class calculator {
 	     System.out.println(result2);
 	     System.out.println(result3);
 	     System.out.println(result4);
+	     
+	     encapsulationPractice obj1 = new encapsulationPractice();
+	     obj1.setName("Dhruv");
+	     obj1.setAccountNo(100734385);
+	     obj1.setAmount(1000);
+	     
+	     
+			//obj1.insert("Dhruv", 100734385, 1000 ); 
+	     System.out.println("hello "+ obj1.getName() + " your account no is "+obj1.getAccountNo() + " your balance is $"+obj1.getAmount());
+			
 	    }  
 }
